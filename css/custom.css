@@ -175,12 +175,12 @@ font-size: .813em}
 
 
 .swiper-container.play {
-}
-.swiper-wrapper.play-wrap {
 	margin: 0 20px;
 	width: inherit;
-	height: 100vh;
-	overflow: hidden;
+	height: 100%;
+}
+.swiper-wrapper.play-wrap {
+
 }
 .swiper-wrapper .swiper-slide.play-pt {
 	height: 100%;
@@ -195,27 +195,34 @@ font-size: .813em}
 	overflow: hidden;
 }
 .swiper-wrapper .swiper-slide .simg > img {}
-.swiper-wrapper .swiper-slide .play-name {
-	height: 52px;
+
+.swiper-wrapper .swiper-slide .play-flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.swiper-wrapper .swiper-slide .play-flex .play-name {
+	display: inline-block;
+	height: 60px;
 	width: inherit;
 	font-size: 25px;
 	line-height: 10px;
 	margin-left: 5px;
 }
-.swiper-wrapper .swiper-slide .play-name .play-date {
+.swiper-wrapper .swiper-slide .play-flex .play-name .play-date {
 	display: block;
 	font-size: 12px;
 	line-height: 45px;
 }
 
-.play-btn {
+.swiper-wrapper .swiper-slide .play-flex .play-btn {
 	margin-top: 20px; 
 	width: 78px; 
 	height: 24px; 
 	border-radius: 5px;
 	overflow: hidden;
 }
-.play-btn > a {
+.swiper-wrapper .swiper-slide .play-flex .play-btn > a {
 	display: block; 
 	color: #fff;
 	background: #1b1b1b;
