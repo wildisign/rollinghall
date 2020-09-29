@@ -234,7 +234,7 @@ font-size: .813em}
 	height: 100%;
 	text-align: center;
 }
-.swiper-pagination {padding-top: -30px}
+.swiper-pagination {margin-top: -30px}
 
 .play-bg {
 	width: 100%; 
