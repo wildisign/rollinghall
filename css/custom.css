@@ -251,7 +251,8 @@ font-size: .813em}
 .rent-wrap {}
 .rent-wrap .rent-list {}
 .rent-wrap .rent-bg {
-	position: fixed; 
+	position: fixed;
+	width: 100%;
 	height: 100%; 
 	background: #ccc;
 }
