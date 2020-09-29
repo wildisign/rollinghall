@@ -250,7 +250,7 @@ font-size: .813em}
 /*renttab*/
 .rent-wrap {}
 .rent-wrap .rent-list {}
-.rent-wrap .rent-bg {
+.rent-bg {
 	position: absolute;
 	top: 0;
 	left: 0;
