@@ -262,18 +262,26 @@ font-size: .813em}
 .rent-wrap .rent-list > h2 {
 	font-size: 15pt;
 }
-.rent-wrap .rent-list > p {
+.rent-wrap .rent-list > h2 > span {
 	color: rgb(0,0,0,0.5);
+	display: block;
+	font-size: 12px;
 }
-.rent-wrap .rent-list > ul {}
+.rent-wrap .rent-list > ul {
+	
+}
 .rent-wrap .rent-list > ul > li {
 	padding: 10px;
 }
 .rent-wrap .rent-list > ul > li > a {
 	display: block; height: 100%;
 }
-.rent-wrap .rent-list > ul > li > a > span {}
-.rent-wrap .rent-list > ul > li > a > span > h3 {}
+.rent-wrap .rent-list > ul > li > a > span {
+	
+}
+.rent-wrap .rent-list > ul > li > a > h3 {
+	
+}
 
 .rent-bg {
 	position: absolute;
