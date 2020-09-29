@@ -266,7 +266,9 @@ font-size: .813em}
 	color: rgb(0,0,0,0.5);
 }
 .rent-wrap .rent-list > ul {}
-.rent-wrap .rent-list > ul > li {}
+.rent-wrap .rent-list > ul > li {
+	padding: 10px;
+}
 .rent-wrap .rent-list > ul > li > a {
 	display: block; height: 100%;
 }
