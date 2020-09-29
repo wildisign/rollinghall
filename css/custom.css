@@ -178,6 +178,7 @@ font-size: .813em}
 }
 */
 
+/*playtab*/
 
 .swiper-container.play {
 	margin: 0 20px;
@@ -245,6 +246,16 @@ font-size: .813em}
 	left: 0; 
 	z-index: -100;
 }
+
+/*renttab*/
+.rent-wrap {}
+.rent-wrap .rent-list {}
+.rent-wrap .rent-bg {
+	position: fixed; 
+	height: 100%; 
+	background: #ccc;
+}
+
 
 .has-navbar-top .app-body {padding-top:50px}
 .nav-tabs {border:none}
