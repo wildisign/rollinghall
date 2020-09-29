@@ -248,8 +248,16 @@ font-size: .813em}
 }
 
 /*renttab*/
-.rent-wrap {}
-.rent-wrap .rent-list {}
+.rent-wrap {
+	margin: 0 20px;
+	width: inherit;
+	height: 100%;
+}
+.rent-wrap .rent-list {
+	width: 100%;
+	height: inherit;
+	background: #fff;
+}
 .rent-bg {
 	position: absolute;
 	top: 0;
