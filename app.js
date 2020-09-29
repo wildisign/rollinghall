@@ -58,6 +58,7 @@ app.run(function($transform) {
 //
 app.config(function($routeProvider) {
   $routeProvider.when('/', {templateUrl: 'page/amsp1.html', controller:'amsp1', reloadOnSearch: false});	
+  $routeProvider.when('/amsp1_detailview', {templateUrl: 'page/amsp1_detailview.html', reloadOnSearch: false});	
   //$routeProvider.when('/', {templateUrl: 'demo/home.html', reloadOnSearch: false});
   $routeProvider.when('/scroll', {templateUrl: 'demo/scroll.html', reloadOnSearch: false});
   $routeProvider.when('/test', {templateUrl: 'demo/test.html', reloadOnSearch: false});
@@ -384,11 +385,31 @@ app.controller('MainController', function($rootScope, $scope) {
 
 app.controller('amsp1', function($rootScope, $scope) {
 	$scope.init = function () {
-		pshinit();		
+		pshinit();
+		 setTimeout(function() { 
+				var swiper = new Swiper('.swiper-container', {
+				  pagination: {
+					el: '.swiper-pagination',
+				  },
+					passiveListeners : false,
+					touchStartPreventDefault : false,
+					touchStartForcePreventDefault : true,
+			  on: {
+				init: function () {
+				  //console.log('swiper initialized');
+				},
+			  }		
+				});	 
+		 }, 10) 
+	 
 	};
 	$scope.init();
 	
 	$scope.assetItems = fileX.records;
+	$scope.create = function() {
+	  alert("working");
+	};	
+	
 });
 
 app.controller('amsp1_pop', function($rootScope, $scope) {
