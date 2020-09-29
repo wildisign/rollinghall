@@ -259,6 +259,18 @@ font-size: .813em}
 	background: #fff;
 	margin-top: 15px;
 }
+.rent-wrap .rent-list > h2 {}
+.rent-wrap .rent-list > p {
+	color: rgb(0,0,0,0.5);
+}
+.rent-wrap .rent-list > ul {}
+.rent-wrap .rent-list > ul > li {}
+.rent-wrap .rent-list > ul > li > a {
+	display: block; height: 100%;
+}
+.rent-wrap .rent-list > ul > li > a > span {}
+.rent-wrap .rent-list > ul > li > a > span > h3 {}
+
 .rent-bg {
 	position: absolute;
 	top: 0;
