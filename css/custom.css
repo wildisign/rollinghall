@@ -259,7 +259,9 @@ font-size: .813em}
 	background: #fff;
 	margin-top: 15px;
 }
-.rent-wrap .rent-list > h2 {}
+.rent-wrap .rent-list > h2 {
+	font-size: 20pt;
+}
 .rent-wrap .rent-list > p {
 	color: rgb(0,0,0,0.5);
 }
